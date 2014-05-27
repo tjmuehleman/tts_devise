@@ -1,0 +1,8 @@
+there are <%=@results.count%> bus routes currently
+<br><br>
+<%@results.each do |result|%>
+	Latitude: <%=result['LATITUDE']%><br>
+	Longitude: <%=result['LONGITUDE']%><br>
+
+<%end%>
+

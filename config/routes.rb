@@ -4,7 +4,10 @@ Rails.application.routes.draw do
   root "welcome#home"
   get 'welcome/home'
 
+  get 'welcome/ajax'
+  get 'welcome/ajax2'
   get 'welcome/about'
+  get 'welcome/samplejson'
 
   devise_for :users
   
