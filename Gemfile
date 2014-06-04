@@ -11,6 +11,9 @@ end
 group :development, :test do
 	gem 'sqlite3'
 end
+
+gem 'rails_12factor', group: :production
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -35,8 +38,6 @@ gem 'spring',        group: :development
 gem 'devise'
 
 gem 'httparty'
-
-gem 'rails_12factor', group: :production
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
